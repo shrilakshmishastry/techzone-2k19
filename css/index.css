@@ -1,0 +1,13 @@
+hr {
+    border:none;
+    height: 1px;
+      /* Set the hr color */
+    color: green; /* old IE */
+    background-color: green; /* Modern Browsers */
+}
+body{
+  color: #2486e7;
+}
+.color{
+  color: #38511b;
+}
