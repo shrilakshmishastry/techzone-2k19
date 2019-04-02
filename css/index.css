@@ -1,13 +1,39 @@
-hr {
-    border:none;
-    height: 1px;
-      /* Set the hr color */
-    color: green; /* old IE */
-    background-color: green; /* Modern Browsers */
-}
+
 body{
-  color: #2486e7;
+  font-family: 'Open Sans', sans-serif;
 }
-.color{
-  color: #38511b;
+@media only screen and (min-width:1200px) {
+  .container_bg{
+    background-image: url('./../images/backlit-blogging-business-34153.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+
+  }
+}
+@media (min-width:700px) and (max-width:1024px)  {
+  .container_bg{
+    background-image: url('./../images/backlit-blogging-business-34153.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+  }
+}
+.container_bg{
+  background-image: url('./../images/backlit-blogging-business-34153.jpg');
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.img:hover{
+    transform: scale(1.2);
+}
+.row_color{
+  background-color: #f6f6f9;
 }
