@@ -1,4 +1,27 @@
+@media only screen and (min-width:1200px) {
+  .carousel{
+    position: relative;
+    height: 500px;
+  }
+}
+@media screen and (max-width:700px)  {
+  .carousel{
+    position: relative;
+    height: 400px;
+  }
+}
+@media only screen and (min-width:1200px) {
+  .carousel_img{
+    position: relative;
+    bottom:100px;
+  }
+}
+@media (min-width:700px) and (max-width:1024px)  {
+  .carousel_img{
+    position: relative;
 
+  }
+}
 body{
   font-family: 'Open Sans', sans-serif;
 }
@@ -151,7 +174,7 @@ background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    
+
   }
 }
 @media (min-width:700px) and (max-width:1024px)  {
@@ -178,4 +201,8 @@ background-position: top;
 }
 .row_color{
   background-color: #f6f6f9;
+}
+
+.a:hover{
+  color: white;
 }
